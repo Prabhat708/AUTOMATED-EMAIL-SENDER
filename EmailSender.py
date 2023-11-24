@@ -31,6 +31,6 @@ if __name__ == "__main__":
     
     subject = input("Write subject of mails.\n")
     message = input("Write your mail content here..........\n")
-    password = input("Enter your Password\n")
+    password = input("Enter your Password\n") #use due to security
     
     send_email(subject, message, from_email, to_emails, username, password)
